@@ -1,0 +1,79 @@
+# Object files
+*.o
+*.obj
+
+# Linker output
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic Libraries
+*.dylib
+*.so
+
+# Dependency files (commonly used with C/C++ compilation)
+*.d
+*.deps
+*.dep
+*.Plo
+
+# CMake output
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+*.cmake
+
+# Make output
+*.out
+*.log
+*.suo
+*.sdf
+*.idb
+*.lastbuild
+*.ilk
+*.tlog
+*.ipch
+
+# Temporary files created by the development environment (e.g., Visual Studio, CLion, Qt Creator)
+*.opendb
+*.VC.db
+*.VC.VC.opendb
+*.user
+*.sln.docstates
+*.aps
+*.bak
+*.ncb
+*.opensdf
+*.cachefile
+
+# Various IDEs
+.vs/       # Visual Studio .vs folder
+.vscode/   # Visual Studio Code folder
+*.code-workspace
+
+.idea/     # Jetbrains IDE (like CLion) folder
+
+# Qt-specific
+moc_*
+ui_*
+qrc_*
+
+# OS-generated files
+.DS_Store # macOS desktop service store files
+Thumbs.db # Windows image cache files
+*.db      # Windows thumbnail cache
+
+# Backup files created by some text editors
+*~
+*.bak
+*.swp
+
+quadris

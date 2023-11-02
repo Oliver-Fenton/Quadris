@@ -1,0 +1,10 @@
+100right
+100left
+100down
+99clockwise
+99counterclockwise
+drop
+100levelu
+dr
+100leveld
+dr

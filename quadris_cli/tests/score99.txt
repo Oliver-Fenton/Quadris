@@ -1,0 +1,17 @@
+4leveld
+I dr
+I dr
+levelu
+I 4ri dr
+I 4ri dr
+levelu
+O dr
+O 2ri dr
+levelu
+O 4ri dr
+O 6ri dr
+levelu
+I cl 10ri dr
+I cl 9ri dr
+I cl 8ri dr
+

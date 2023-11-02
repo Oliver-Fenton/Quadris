@@ -1,0 +1,9 @@
+5rig
+0lef 0dow 0rig 0drop
+-3lef -3rig -3dow
+-1clo -1cou
+-2drop
+-2levelu
+5ri 1dr
+-1leveld
+5ri dr
