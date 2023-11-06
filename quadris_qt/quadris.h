@@ -20,7 +20,7 @@ private:
     std::istream &inStream;
     std::ostream &outStream;
     std::string SequenceFile;
-    const std::string HIGH_SCORE_FILE = "highscore.txt";
+    const std::string HIGH_SCORE_FILE = "quadris_highscore.txt";
 
     std::unique_ptr<Score> myScore;
     std::unique_ptr<AbstractLevel> myLevel;
