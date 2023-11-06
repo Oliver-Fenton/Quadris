@@ -60,6 +60,7 @@ cmake_install.cmake
 *.code-workspace
 
 .idea/     # Jetbrains IDE (like CLion) folder
+**/.idea/
 
 # Qt-specific
 moc_*
@@ -68,6 +69,7 @@ qrc_*
 
 # OS-generated files
 .DS_Store # macOS desktop service store files
+**/.DS_Store
 Thumbs.db # Windows image cache files
 *.db      # Windows thumbnail cache
 
