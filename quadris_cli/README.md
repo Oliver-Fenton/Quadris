@@ -41,6 +41,7 @@ game board in the centre column. Once dropped, it acts like any other block: if 
 - **Rotation:** `clockwise`, `counterclockwise`
 - **Gameplay:** `levelup`, `leveldown`, `restart`
 - **Testing:** `norandom`, `random`, `sequence`, `I`, `J`, `L`, etc.
+  
 *(Note: Prefix multipliers can be added to repeat commands. Only as much of a command as is necessary to distinguish it from other commands needs to be entered.)*
 
 ## Scoring
