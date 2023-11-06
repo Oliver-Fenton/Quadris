@@ -6,6 +6,8 @@
 #include <QTimer>
 #include <vector>
 #include <utility>
+#include <QStandardPaths>
+#include <QDir>
 
 #include "grid.h"
 #include "score.h"
@@ -69,8 +71,9 @@ void Quadris::setNextBlock(std::shared_ptr<AbstractBlock> newBlock) {
 }
 
 void Quadris::readHighScore() {
-    std::filesystem::path execPath = std::filesystem::current_path();
-    std::filesystem::path highScoreFilePath = execPath / HIGH_SCORE_FILE;
+    QString dataLocation = QStandardPaths::writableLocation(QStandardPaths::AppDataLocation);
+    QDir().mkpath(dataLocation);
+    std::filesystem::path highScoreFilePath = std::filesystem::path(dataLocation.toStdString()) / HIGH_SCORE_FILE;
     std::ifstream infile(highScoreFilePath);
 
     int fileHighScore = 0;
@@ -82,8 +85,9 @@ void Quadris::readHighScore() {
 }
 
 void Quadris::writeHighScore() {
-    std::filesystem::path execPath = std::filesystem::current_path();
-    std::filesystem::path highScoreFilePath = execPath / HIGH_SCORE_FILE;
+    QString dataLocation = QStandardPaths::writableLocation(QStandardPaths::AppDataLocation);
+    QDir().mkpath(dataLocation);
+    std::filesystem::path highScoreFilePath = std::filesystem::path(dataLocation.toStdString()) / HIGH_SCORE_FILE;
     std::ifstream infile(highScoreFilePath);
 
     int fileHighScore = 0;
