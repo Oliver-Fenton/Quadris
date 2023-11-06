@@ -71,28 +71,28 @@ Ensure you have the appropriate QT libraries installed.
 To compile the project, follow the steps below:
 
 1. Navigate to the project directory:
-\```
+```
 cd path/to/quadris_qt
-\```
+```
 
 2. Create and navigate to the build directory:
-\```
+```
 mkdir build
 cd build
-\```
+```
 
 4. Run CMake and build the project:
-\```
+```
 cmake ..
 make
-\```
+```
 
 ### Running Quadris QT
 
 To start the game, use the following command from the build directory:
-\```
+```
 open Quadris.app
-\```
+```
 
 ### Gameplay
 
